@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="options.css">
+</head>
+<body>
+<div>
+	<h3>Traffic mode</h3>
+	<label for="traffic-mode">Proxy traffic for: </label>
+	<select id="traffic-mode">
+		<option value="singleProxy" selected="selected">all</option>
+		<option value="proxyForHttp">HTTP only</option>
+		<option value="proxyForHttps">HTTPS only</option>
+		<option value="proxyForFtp">FTP only</option>
+		<option value="fallbackProx">fallback</option>
+	</select>
+</div>
+<div>
+	<h3>Proxy servers</h3>
+	<div id="proxy-servers">
+		<table>
+			<thead>
+				<tr>
+					<th>Scheme</th>
+					<th>Host</th>
+					<th>Port</th>
+				</tr>
+			</thead>
+			<tbody id="proxy-list">
+				<tr><td>empty</td><td></td><td></td></tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>
+						<select id="scheme">
+							<option value="http" selected="selected">HTTP</option>
+							<option value="https">HTTPS</option>
+							<option value="quic">QUIC</option>
+							<option value="socks4">SOCKS4</option>
+							<option value="socks5">SOCKS5</option>
+						</select>
+					</td>
+					<td>
+						<input id="host" type="text" maxlength="15">
+					</td>
+					<td>
+						<input id="port" type="text" maxlength="5">
+					</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+</div>
+<button id="add" disabled="disabled">add</button>
+<button id="remove" disabled="disabled">remove</button>
+<button id="clear">clear</button>
+<button id="save">save</button>
+<script type="text/javascript" src="options.js"></script>
+</body>
+</html>

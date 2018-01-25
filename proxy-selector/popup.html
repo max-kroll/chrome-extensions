@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+<ul id="proxy-selector">
+	<li id="proxy-sys" class="selected">system&nbsp;default</li>
+	<li id="proxy-on">
+		proxy&nbsp;connection
+		<table>
+			<thead>
+				<tr>
+					<th>Scheme</th>
+					<th>Host</th>
+					<th>Port</th>
+				</tr>
+			</thead>
+			<tbody id="proxy-list">
+				<tr><td>empty</td><td></td><td></td></tr>
+			</tbody>
+		</table>
+	</li>
+	<li id="proxy-off">direct&nbsp;connection</li>
+</ul>
+<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>

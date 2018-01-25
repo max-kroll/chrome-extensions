@@ -1,0 +1,26 @@
+{
+	"extName": {
+		"message": "Tables"
+	},
+	"extTitle": {
+		"message": "Tables"
+	},
+	"table": {
+		"message": "Table"
+	},
+	"sortCol": {
+		"message": "Sort by column"
+	},
+	"sortDir_asc": {
+		"message": "asc"
+	},
+	"sortDir_desc": {
+		"message": "desc"
+	},
+	"selCol": {
+		"message": "Select column (Ctrl + double click)"
+	},
+	"copy": {
+		"message": "Copy"
+	}
+}

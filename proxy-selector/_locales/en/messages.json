@@ -1,0 +1,20 @@
+{
+	"extName": {
+		"message": "Proxy selector"
+	},
+	"extDesc": {
+		"message": "This extension allows the user to switch proxy settings"
+	},
+	"useSys": {
+		"message": "system default"
+	},
+	"useDirect": {
+		"message": "direct connection"
+	},
+	"useProxy": {
+		"message": "proxy connection"
+	},
+	"empty": {
+		"message": " (empty)"
+	}
+}

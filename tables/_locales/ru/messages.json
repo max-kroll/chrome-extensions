@@ -1,0 +1,26 @@
+{
+	"extName": {
+		"message": "Таблицы"
+	},
+	"extTitle": {
+		"message": "Таблицы"
+	},
+	"table": {
+		"message": "Таблица"
+	},
+	"sortCol": {
+		"message": "Упорядочить по столбцу"
+	},
+	"sortDir_asc": {
+		"message": "возр"
+	},
+	"sortDir_desc": {
+		"message": "убыв"
+	},
+	"selCol": {
+		"message": "Выделить столбец (Ctrl + дв. клик)"
+	},
+	"copy": {
+		"message": "Копировать"
+	}
+}

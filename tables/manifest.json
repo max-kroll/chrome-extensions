@@ -1,0 +1,42 @@
+{
+	"name": "__MSG_extName__",
+	"version": "1.0",
+	"description": "",
+	"default_locale": "en",
+
+	"browser_action": {
+		"default_icon": {
+			"32": "32.png",
+			"16": "on.png"
+		},
+		"default_title": "__MSG_extTitle__"
+	},
+
+	"icons": {
+		"128": "main.png",
+		"32": "32.png",
+		"16": "on.png"
+	},
+
+	"background": {
+		"scripts": [ "background.js" ]
+	},
+
+	"content_scripts": [{
+		"matches": ["*://*/*"],
+		"js": ["contentscript.js"],
+		"css": ["contentstyle.css"],
+		"run_at": "document_idle",
+		"all_frames": true
+	}],
+
+	"permissions": [
+		"contextMenus",
+		"tabs",
+		"webNavigation",
+		"*://*/*"
+	],
+
+	"minimum_chrome_version": "6.0.0.0",
+	"manifest_version": 2
+}
