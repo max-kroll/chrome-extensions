@@ -1,8 +1,8 @@
 # Chrome extensions
 | Chrome Extension | Description | Source  |
 | ------ | ------ | -----: |
-|  Proxy-selector  |  [description](##proxy-selector)  |   [source code](https://github.com/max-kroll/chrome-extensions/tree/master/proxy-selector)  |
-|  Tables  |  [description](##tables)  |   [source code](https://github.com/max-kroll/chrome-extensions/tree/master/tables)  |
+|  Proxy-selector  |  [description](#proxy-selector)  |   [source code](https://github.com/max-kroll/chrome-extensions/tree/master/proxy-selector)  |
+|  Tables  |  [description](#tables)  |   [source code](https://github.com/max-kroll/chrome-extensions/tree/master/tables)  |
 
 ## Proxy selector
 Allows you to change the proxy server settings with one click
