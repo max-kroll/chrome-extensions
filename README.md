@@ -6,8 +6,8 @@
 
 ## Proxy-selector chrome extension {#proxy-selector}
 Allows you to change the proxy server settings with one click
-![popup window](https://github.com/max-kroll/chrome-extensions/tree/master/proxy-selector/popup.png "Popup Window")
-![options window](https://github.com/max-kroll/chrome-extensions/tree/master/proxy-selector/options.png "Options Window")
+![popup window](https://github.com/max-kroll/chrome-extensions/blob/master/proxy-selector/popup.png?raw=true "Popup Window")
+![options window](https://github.com/max-kroll/chrome-extensions/blob/master/proxy-selector/options.png?raw=true "Options Window")
 
 ## Tables chrome extension {#tables}
 Allows you to work with HTML tables - sort by columns, select and copy selected columns to the clipboard through the context menu
